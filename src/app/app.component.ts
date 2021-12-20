@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  public name = "E-commerce" ;
+  onClick(){
+    console.info("E-commerce@gmail.com")
+  }
 }
